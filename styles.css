@@ -1,0 +1,19 @@
+.container {
+
+display : flex;
+border : 5px solid black;
+width : 960px;
+height : 860px;
+flex-wrap: wrap;
+margin : 0 auto;
+
+}
+
+.item {
+
+border : 2px solid red;
+flex-grow : 1;
+
+
+}
+
