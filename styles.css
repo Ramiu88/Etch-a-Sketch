@@ -7,14 +7,5 @@ height : 960px;
 flex-wrap: wrap;
 margin : 0 auto;
 
-
-}
-
-.item {
-
-border :  1px solid black;
-height: 58px;
-width: 58px;
-    
 }
 
