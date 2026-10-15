@@ -20,3 +20,11 @@ function gridSize(n)
 gridSize(16);
 
 
+divContainer.addEventListener('mouseover', function (event)
+{
+
+    event.target.style.backgroundColor = "red";
+
+});
+
+
