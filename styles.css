@@ -3,17 +3,18 @@
 display : flex;
 border : 5px solid black;
 width : 960px;
-height : 860px;
+height : 960px;
 flex-wrap: wrap;
 margin : 0 auto;
+
 
 }
 
 .item {
 
-border : 2px solid red;
-flex-grow : 1;
-
-
+border :  1px solid black;
+height: 58px;
+width: 58px;
+    
 }
 
