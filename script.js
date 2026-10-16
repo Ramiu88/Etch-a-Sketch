@@ -47,5 +47,22 @@ h3.setAttribute("class","title");
 btn.setAttribute("class","change-size-button");
 
 
+btn.addEventListener('click',function() {
+
+let n = prompt("Enter a nmuber between 0 and 100");
+
+const items = document.querySelectorAll(".item");
+
+items.forEach((i) => {
+
+    divContainer.removeChild(i);
+
+});
+
+gridSize(n);
+
+});
+
+
 
 
