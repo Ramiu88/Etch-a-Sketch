@@ -24,10 +24,15 @@ function gridSize(n)
 gridSize(16);
 
 
-divContainer.addEventListener('mouseover', function (event)
-{
+const miniDivs= document.querySelectorAll(".item");
 
-    event.target.style.backgroundColor = "red";
+miniDivs.forEach((i)=>{
+
+     i.addEventListener('mouseover',function(event) {
+
+     i.style.backgroundColor = "aqua";
+
+     });
 
 });
 
