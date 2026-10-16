@@ -1,5 +1,9 @@
 
 const divContainer = document.querySelector(".container");
+const btn = document.createElement("button");
+const body = document.querySelector("body");
+const h3 = document.createElement("h3");
+const divHeader = document.createElement("div");
 
 
 function gridSize(n)
@@ -26,5 +30,22 @@ divContainer.addEventListener('mouseover', function (event)
     event.target.style.backgroundColor = "red";
 
 });
+
+body.insertBefore(divHeader,divContainer);
+divHeader.setAttribute("class","header");
+
+divHeader.appendChild(h3);
+divHeader.appendChild(btn);
+
+
+
+btn.textContent = "Change size";
+h3.textContent = "Etch-a-Sktech";
+
+
+h3.setAttribute("class","title");
+btn.setAttribute("class","change-size-button");
+
+
 
 

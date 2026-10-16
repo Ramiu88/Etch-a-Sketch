@@ -5,7 +5,22 @@ border : 5px solid black;
 width : 960px;
 height : 960px;
 flex-wrap: wrap;
+
+
+}
+
+
+.container,
+.title,
+.change-size-button {
+
 margin : 0 auto;
+
+}
+
+.title {
+
+font-size: 48px;
 
 }
 
