@@ -18,15 +18,10 @@ function gridSize(n)
         divContainer.appendChild(divItem);
 
     }
-}
 
+    const miniDivs= document.querySelectorAll(".item");
 
-gridSize(16);
-
-
-const miniDivs= document.querySelectorAll(".item");
-
-miniDivs.forEach((i)=>{
+    miniDivs.forEach((i)=>{
 
      i.addEventListener('mouseover',function(event) {
 
@@ -35,6 +30,15 @@ miniDivs.forEach((i)=>{
      });
 
 });
+
+    
+}
+
+
+gridSize(16);
+
+
+
 
 body.insertBefore(divHeader,divContainer);
 divHeader.setAttribute("class","header");
