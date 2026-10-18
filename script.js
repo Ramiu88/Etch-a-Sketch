@@ -58,7 +58,15 @@ btn.setAttribute("class","change-size-button");
 
 btn.addEventListener('click',function() {
 
-let n = prompt("Enter a nmuber between 0 and 100");
+let n;
+
+do {
+
+n = prompt("Enter a nmuber between 0 and 100");
+
+}while(n < 0 || n > 100);
+
+
 
 const items = document.querySelectorAll(".item");
 
