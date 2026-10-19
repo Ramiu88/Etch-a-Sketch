@@ -64,7 +64,7 @@ do {
 
 n = prompt("Enter a nmuber between 0 and 100");
 
-}while(n < 0 || n > 100);
+}while(n < 0 || n > 100 || isNaN(n) == true);
 
 
 
