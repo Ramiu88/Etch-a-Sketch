@@ -1,1 +1,1 @@
-Etch-a-Sktech is a project part of [Visit TOP](https://www.theodinproject.com/dashboard).
+Etch-a-Sktech is a project part of [The Odin Project](https://www.theodinproject.com/dashboard).
