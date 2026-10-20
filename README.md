@@ -1,1 +1,1 @@
-# Etch-a-Sketch
+Etch-a-Sktech is a project part of [Visit TOP](https://www.theodinproject.com/dashboard).
